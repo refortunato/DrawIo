@@ -1,0 +1,16 @@
+{
+  "name": "drawio-codeblock",
+  "displayName": "Draw.io Code Block",
+  "description": "Bloco de código com realce de sintaxe, seleção de linguagem e números de linha para o Draw.io Integration.",
+  "version": "1.0.1",
+  "publisher": "renanfortunato",
+  "license": "MIT",
+  "engines": { "vscode": "^1.80.0" },
+  "categories": ["Visualization", "Other"],
+  "keywords": ["drawio", "diagram", "code block", "syntax highlight"],
+  "main": "./extension.js",
+  "activationEvents": [],
+  "extensionKind": ["ui", "workspace"],
+  "extensionDependencies": ["hediet.vscode-drawio"],
+  "isDrawioExtension": true
+}

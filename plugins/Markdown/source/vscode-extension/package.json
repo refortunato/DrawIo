@@ -1,0 +1,16 @@
+{
+  "name": "drawio-markdown",
+  "displayName": "Draw.io Markdown",
+  "description": "Bloco que interpreta Markdown (títulos, listas, tabelas, código com cores) para o Draw.io Integration.",
+  "version": "1.0.0",
+  "publisher": "renanfortunato",
+  "license": "MIT",
+  "engines": { "vscode": "^1.80.0" },
+  "categories": ["Visualization", "Other"],
+  "keywords": ["drawio", "diagram", "markdown"],
+  "main": "./extension.js",
+  "activationEvents": [],
+  "extensionKind": ["ui", "workspace"],
+  "extensionDependencies": ["hediet.vscode-drawio"],
+  "isDrawioExtension": true
+}
